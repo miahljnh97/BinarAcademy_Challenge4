@@ -57,10 +57,10 @@ show result
 */
 function showResults(result) {
   resultBox.style.removeProperty("visibility");
-  if (hasil === "draw") {
+  if (result === "draw") {
     resultText.innerText = "DRAW";
     console.log("Hasil Pertandingan = Draw");
-  } else if (hasil === "com") {
+  } else if (result === "com") {
     resultText.innerText = "COM\nWIN";
     console.log("Hasil Pertandingan = Com Win");
   } else {
