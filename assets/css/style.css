@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap");
+
+body,
+html {
+  font-size: 1px;
+  background-color: #9c835f !important;
+}
+
+.navi {
+  margin-top: 10px;
+  margin-left: 10px;
+  padding-right: 20px;
+  text-decoration: none;
+  background-color: #9c835f;
+}
+.navi-link {
+  position: absolute;
+  width: 55px;
+  height: 87px;
+  left: 37px;
+  top: 12px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 98px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #724c21;
+}
+.navi-back {
+  width: 55px;
+  height: 87px;
+  margin-left: 37px;
+  margin-top: 12px;
+  color: #724c21;
+  font-family: "Open Sans";
+  font-size: 72px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.navi-logo {
+  font-family: "Open Sans";
+  font-size: 50px;
+  color: #f9b23d;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-left: 20px;
+  line-height: 10px;
+}
+
+.text-player {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30rem;
+  line-height: 30rem;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.item {
+  height: fit-content;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100rem !important;
+}
+
+.opsi {
+  height: 100rem;
+  width: 85rem;
+}
+
+.vs {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80rem;
+  line-height: 80rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #bd0000;
+  position: relative;
+  top: -300rem;
+  left: 20vw;
+}
+
+.game-windows {
+  position: relative;
+  top: -695rem;
+  left: 40vw;
+}
+
+.reload {
+  position: relative;
+  top: -695rem;
+  left: 26.5vw;
+}
+
+.result {
+  transform: rotate(-28.87deg);
+  border-radius: 10px;
+  background: #4c9654;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -400rem;
+  left: 20vw;
+}
+
+.text-result {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35rem;
+  line-height: 35rem;
+  text-align: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
