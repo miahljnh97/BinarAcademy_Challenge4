@@ -25,7 +25,7 @@ function pilihanCom() {
   }
 }
 
-/*cek hasil*/
+/*check the results*/
 
 function rockPaperScissors(pilPlayer, pilCom) {
   if (pilPlayer === pilCom) {
@@ -53,9 +53,9 @@ function rockPaperScissors(pilPlayer, pilCom) {
   }
 }
 /*
-show hasil
+show result
 */
-function showHasil(hasil) {
+function showResults(result) {
   resultBox.style.removeProperty("visibility");
   if (hasil === "draw") {
     resultText.innerText = "DRAW";
@@ -91,7 +91,7 @@ function Batu() {
   com = pilihanCom();
   console.log("Pilihan Computer = " + com);
   result = rockPaperScissors(player, com);
-  showHasil(result);
+  showResults(result);
 }
 
 function Kertas() {
@@ -102,7 +102,7 @@ function Kertas() {
   com = pilihanCom();
   console.log("Pilihan Computer = " + com);
   result = rockPaperScissors(player, com);
-  showHasil(result);
+  showResults(result);
 }
 
 function Gunting() {
@@ -113,5 +113,5 @@ function Gunting() {
   com = pilihanCom();
   console.log("Pilihan Computer = " + com);
   result = rockPaperScissors(player, com);
-  showHasil(result);
+  showResults(result);
 }
